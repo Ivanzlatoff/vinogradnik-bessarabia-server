@@ -25,7 +25,11 @@ mongoose.connect(process.env.MONGO_URL)
 
 app.use(cors({
     credentials: true,
-    // origin: ['http://localhost:3000', 'http://localhost:3001']
+    origin: [
+        'http://localhost:3000', 
+        'http://localhost:3001', 
+        'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app/'
+    ]
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
