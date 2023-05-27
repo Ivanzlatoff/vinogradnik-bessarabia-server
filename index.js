@@ -23,15 +23,24 @@ mongoose.connect(process.env.MONGO_URL)
         console.log(err);
     });
 
+// app.use(cors({
+//     AccessControlAllowOrigin: '*',
+//     credentials: true,
+//     origin: [
+//         'http://localhost:3000', 
+//         'http://localhost:3001', 
+//         'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app/',
+//         'https://main.dri9uy0bmhz14.amplifyapp.com/'
+//     ]
+// }));
 app.use(cors({
-    AccessControlAllowOrigin: '*',
-    credentials: true,
-    origin: [
-        'http://localhost:3000', 
-        'http://localhost:3001', 
-        'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app/',
-        'https://main.dri9uy0bmhz14.amplifyapp.com/'
-    ]
+  accessControlAllowOrigin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app',
+    'https://main.dri9uy0bmhz14.amplifyapp.com'
+  ],
+  credentials: true
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
