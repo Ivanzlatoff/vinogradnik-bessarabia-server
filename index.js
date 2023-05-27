@@ -24,8 +24,7 @@ mongoose.connect(process.env.MONGO_URL)
     });
 
 app.use(cors({
-    AccessControlAllowOrigin: '*',
-    credentials: true,
+    'Access-Control-Allow-Credentials': true,
     origin: [
         'http://localhost:3000', 
         'http://localhost:3001', 
