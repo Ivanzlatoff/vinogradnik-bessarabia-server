@@ -33,7 +33,6 @@ app.use(cors({
         'https://main.dri9uy0bmhz14.amplifyapp.com/'
     ]
 }));
-// app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
