@@ -28,7 +28,8 @@ app.use(cors({
     origin: [
         'http://localhost:3000', 
         'http://localhost:3001', 
-        'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app/'
+        'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app/',
+        'https://main.dri9uy0bmhz14.amplifyapp.com/'
     ]
 }));
 app.use(express.json());
