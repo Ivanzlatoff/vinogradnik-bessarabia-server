@@ -24,9 +24,7 @@ const verifyRefreshToken = async (req, res, next) => {
 
     if (!refreshToken) return res.status(401).json("You are not authenticated!");
 
-    const existingRefreshToken = await RefreshToken.findOne({
-        refreshToken: refreshToken
-    });
+    const existingRefreshToken = await RefreshToken.findById(refreshTokenId);
     try {
         if (!existingRefreshToken) throw new Error('Refresh token is invalid!');
     } catch(err) {
