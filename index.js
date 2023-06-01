@@ -28,7 +28,8 @@ app.use(cors({
     'http://localhost:3000',
     'http://localhost:3001',
     'https://646feb347dd133147b9208b7--comforting-ganache-bb49bc.netlify.app',
-    'https://main.dri9uy0bmhz14.amplifyapp.com'
+    'https://main.dri9uy0bmhz14.amplifyapp.com',
+    'https://main.d2znqjapc2ghcc.amplifyapp.com'
   ],
   credentials: true
 }));
