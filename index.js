@@ -30,7 +30,7 @@ app.use(cors({
     'https://main.dri9uy0bmhz14.amplifyapp.com',
     'https://main.d2znqjapc2ghcc.amplifyapp.com',
     'https://dazzling-shortbread-a499e3.netlify.app',
-    'https://https://gentle-salmiakki-19cdd1.netlify.app'
+    'https://gentle-salmiakki-19cdd1.netlify.app'
   ],
   credentials: true
 }));
