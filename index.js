@@ -32,7 +32,7 @@ app.use(cors({
         'http://localhost:3003',
         'https://main.dri9uy0bmhz14.amplifyapp.com',
         'https://main.d2znqjapc2ghcc.amplifyapp.com',
-        'https://main--chipper-otter-9d2e31.netlify.app',
+        'https://chipper-otter-9d2e31.netlify.app',
         'https://singular-crumble-f5f0f8.netlify.app'
     ]
 }));
