@@ -32,7 +32,7 @@ app.use(cors({
         'http://localhost:3003',
         'https://main.dri9uy0bmhz14.amplifyapp.com',
         'https://main.d2znqjapc2ghcc.amplifyapp.com',
-        'https://dazzling-shortbread-a499e3.netlify.app',
+        'https://main--chipper-otter-9d2e31.netlify.app',
         'https://gentle-salmiakki-19cdd1.netlify.app'
     ]
 }));
