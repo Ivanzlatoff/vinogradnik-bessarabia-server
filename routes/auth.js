@@ -111,7 +111,6 @@ router.post('/login', async (req, res, next) => {
 
 // REFRESH TOKEN
 router.put('/refresh_token', verifyRefreshToken, async (req, res) => {
-
     const user = req.user;
     const refreshTokenId = req.body.refreshTokenId;
     const newAccessToken = generateAccessToken(user);

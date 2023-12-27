@@ -6,7 +6,6 @@ const router = require('express').Router();
 // CREATE
 router.post('/', verifyAccessToken, async (req, res) => {
     const newCart = new Cart(req.body);
-
     try {
         const savedCart = await newCart.save();
         res.status(200).json(savedCart);

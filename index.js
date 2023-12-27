@@ -28,9 +28,12 @@ app.use(cors({
     origin: [
         'http://localhost:3000', 
         'http://localhost:3001',
-        'http://localhost:3002',
+        'http://localhost:3002', 
         'http://localhost:3003',
-        'http://localhost:3000/Ivanzlatoff/vinogradnik-bessarabia-client'
+        'https://main.dri9uy0bmhz14.amplifyapp.com',
+        'https://main.d2znqjapc2ghcc.amplifyapp.com',
+        'https://dazzling-shortbread-a499e3.netlify.app',
+        'https://gentle-salmiakki-19cdd1.netlify.app'
     ]
 }));
 app.use(express.json());

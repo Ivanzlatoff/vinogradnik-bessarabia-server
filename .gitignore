@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+=======
+# Local Netlify folder
+.netlify
+>>>>>>> 66f4701426851940387e0ac24c0f7530ca815198
 .env

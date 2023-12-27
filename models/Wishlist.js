@@ -7,7 +7,7 @@ const WishlistSchema = new mongoose.Schema(
             {
                 _id: {type: String, required: true, unique: true},
                 title: {type: String, required: true, unique: true },
-                desc: {type: String, required: true },
+                desc: {type: Object, required: true },
                 img: {type: String, required: true },
                 categories: {type: Array, required: true },
                 color: {type: Array, required: true },
